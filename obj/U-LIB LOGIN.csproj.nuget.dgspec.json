@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacky K\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj": {}
+    "C:\\Users\\LENOVO\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacky K\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj": {
+    "C:\\Users\\LENOVO\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacky K\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj",
         "projectName": "U-LIB LOGIN",
-        "projectPath": "C:\\Users\\Jacky K\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj",
-        "packagesPath": "C:\\Users\\Jacky K\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacky K\\source\\repos\\ULIB-Project\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\source\\repos\\ULIB-Project\\U-LIB LOGIN.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\source\\repos\\ULIB-Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jacky K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

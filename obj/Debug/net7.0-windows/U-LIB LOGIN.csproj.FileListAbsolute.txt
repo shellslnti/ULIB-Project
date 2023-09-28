@@ -32,3 +32,21 @@ C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\refint\U-LIB
 C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.pdb
 C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.genruntimeconfig.cache
 C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\ref\U-LIB LOGIN.dll
+C:\Users\LENOVO\Source\Repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.exe
+C:\Users\LENOVO\Source\Repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.deps.json
+C:\Users\LENOVO\Source\Repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.runtimeconfig.json
+C:\Users\LENOVO\Source\Repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.dll
+C:\Users\LENOVO\Source\Repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.pdb
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.login.resources
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.Properties.Resources.resources
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.csproj.GenerateResource.cache
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.AssemblyInfo.cs
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.dll
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\refint\U-LIB LOGIN.dll
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.pdb
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.genruntimeconfig.cache
+C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\ref\U-LIB LOGIN.dll
+C:\Users\LENOVO\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.Form2.resources

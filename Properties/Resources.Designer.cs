@@ -59,5 +59,15 @@ namespace U_LIB_LOGIN.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_26241 {
+            get {
+                object obj = ResourceManager.GetObject("search-26241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

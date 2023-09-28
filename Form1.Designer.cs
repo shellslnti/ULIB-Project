@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             loginform = new Panel();
-            label1 = new Label();
             checkpassword = new CheckBox();
             button2 = new Button();
             button1 = new Button();
@@ -49,7 +48,6 @@
             // 
             loginform.BackColor = SystemColors.ButtonHighlight;
             loginform.BorderStyle = BorderStyle.Fixed3D;
-            loginform.Controls.Add(label1);
             loginform.Controls.Add(checkpassword);
             loginform.Controls.Add(button2);
             loginform.Controls.Add(button1);
@@ -64,19 +62,6 @@
             loginform.Size = new Size(446, 401);
             loginform.TabIndex = 0;
             loginform.Paint += loginform_Paint;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Yellow;
-            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(165, 53);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(113, 14);
-            label1.TabIndex = 3;
-            label1.Text = "Login as Student";
             // 
             // checkpassword
             // 
@@ -160,9 +145,9 @@
             emailtxt.ForeColor = SystemColors.ActiveCaptionText;
             emailtxt.Location = new Point(37, 138);
             emailtxt.Name = "emailtxt";
-            emailtxt.Size = new Size(51, 19);
+            emailtxt.Size = new Size(84, 19);
             emailtxt.TabIndex = 0;
-            emailtxt.Text = "Email";
+            emailtxt.Text = "Username";
             emailtxt.Click += emailtxt_Click;
             // 
             // pictureBox1
@@ -195,7 +180,7 @@
             AutoScaleDimensions = new SizeF(9F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Purple;
-            ClientSize = new Size(1105, 590);
+            ClientSize = new Size(950, 500);
             Controls.Add(pictureBox1);
             Controls.Add(welcometxt);
             Controls.Add(loginform);
@@ -227,6 +212,5 @@
         private Button button2;
         private Button button1;
         private CheckBox checkpassword;
-        private Label label1;
     }
 }
