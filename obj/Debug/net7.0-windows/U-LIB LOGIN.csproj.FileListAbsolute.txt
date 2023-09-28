@@ -50,3 +50,4 @@ C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.p
 C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.genruntimeconfig.cache
 C:\Users\LENOVO\Source\Repos\ULIB-Project\obj\Debug\net7.0-windows\ref\U-LIB LOGIN.dll
 C:\Users\LENOVO\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.Form2.resources
+C:\Users\LENOVO\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.homepage.resources
