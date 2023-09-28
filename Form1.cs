@@ -36,5 +36,21 @@ namespace U_LIB_LOGIN
         {
             passwordbox.PasswordChar = '*';
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //hide
+            this.Hide();
+            //sambung form2
+            Form2 f2 = new Form2();
+            //show f2
+            f2.ShowDialog();
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

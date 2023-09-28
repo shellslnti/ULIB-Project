@@ -40,6 +40,8 @@
             emailtxt = new Label();
             pictureBox1 = new PictureBox();
             welcometxt = new Label();
+            linkLabel1 = new LinkLabel();
+            label1 = new Label();
             loginform.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -48,6 +50,8 @@
             // 
             loginform.BackColor = SystemColors.ButtonHighlight;
             loginform.BorderStyle = BorderStyle.Fixed3D;
+            loginform.Controls.Add(label1);
+            loginform.Controls.Add(linkLabel1);
             loginform.Controls.Add(checkpassword);
             loginform.Controls.Add(button2);
             loginform.Controls.Add(button1);
@@ -68,9 +72,9 @@
             checkpassword.AutoSize = true;
             checkpassword.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             checkpassword.ForeColor = SystemColors.ActiveCaptionText;
-            checkpassword.Location = new Point(155, 231);
+            checkpassword.Location = new Point(155, 240);
             checkpassword.Name = "checkpassword";
-            checkpassword.Size = new Size(97, 19);
+            checkpassword.Size = new Size(148, 29);
             checkpassword.TabIndex = 7;
             checkpassword.Text = "See password";
             checkpassword.UseVisualStyleBackColor = true;
@@ -79,20 +83,21 @@
             // 
             button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ActiveCaptionText;
-            button2.Location = new Point(322, 289);
+            button2.Location = new Point(317, 317);
             button2.Name = "button2";
-            button2.Size = new Size(75, 33);
+            button2.Size = new Size(80, 36);
             button2.TabIndex = 6;
             button2.Text = "submit";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(229, 289);
+            button1.Location = new Point(228, 317);
             button1.Name = "button1";
-            button1.Size = new Size(75, 33);
+            button1.Size = new Size(75, 36);
             button1.TabIndex = 5;
             button1.Text = "cancel";
             button1.UseVisualStyleBackColor = true;
@@ -101,7 +106,7 @@
             // 
             passwordbox.Location = new Point(155, 202);
             passwordbox.Name = "passwordbox";
-            passwordbox.Size = new Size(242, 24);
+            passwordbox.Size = new Size(242, 32);
             passwordbox.TabIndex = 4;
             passwordbox.TextChanged += passwordbox_TextChanged;
             // 
@@ -113,7 +118,7 @@
             passwordtxt.ForeColor = SystemColors.ActiveCaptionText;
             passwordtxt.Location = new Point(37, 207);
             passwordtxt.Name = "passwordtxt";
-            passwordtxt.Size = new Size(81, 19);
+            passwordtxt.Size = new Size(119, 29);
             passwordtxt.TabIndex = 3;
             passwordtxt.Text = "Password";
             // 
@@ -134,7 +139,7 @@
             // 
             emailbox.Location = new Point(155, 139);
             emailbox.Name = "emailbox";
-            emailbox.Size = new Size(242, 24);
+            emailbox.Size = new Size(242, 32);
             emailbox.TabIndex = 1;
             // 
             // emailtxt
@@ -145,7 +150,7 @@
             emailtxt.ForeColor = SystemColors.ActiveCaptionText;
             emailtxt.Location = new Point(37, 138);
             emailtxt.Name = "emailtxt";
-            emailtxt.Size = new Size(84, 19);
+            emailtxt.Size = new Size(124, 29);
             emailtxt.TabIndex = 0;
             emailtxt.Text = "Username";
             emailtxt.Click += emailtxt_Click;
@@ -155,7 +160,7 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(316, 14);
+            pictureBox1.Location = new Point(266, 5);
             pictureBox1.Margin = new Padding(4, 3, 4, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(50, 47);
@@ -168,16 +173,39 @@
             // 
             welcometxt.AutoSize = true;
             welcometxt.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            welcometxt.Location = new Point(366, 24);
+            welcometxt.Location = new Point(324, 9);
             welcometxt.Margin = new Padding(4, 0, 4, 0);
             welcometxt.Name = "welcometxt";
-            welcometxt.Size = new Size(254, 29);
+            welcometxt.Size = new Size(383, 43);
             welcometxt.TabIndex = 2;
             welcometxt.Text = "WELCOME TO U-LIB";
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Calibri", 6F, FontStyle.Regular, GraphicsUnit.Point);
+            linkLabel1.Location = new Point(118, 374);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 14);
+            linkLabel1.TabIndex = 8;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Create One!!";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial", 5F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(3, 374);
+            label1.Name = "label1";
+            label1.Size = new Size(118, 13);
+            label1.TabIndex = 9;
+            label1.Text = "Don't have an account?";
+            label1.Click += label1_Click_1;
+            // 
             // login
             // 
-            AutoScaleDimensions = new SizeF(9F, 16F);
+            AutoScaleDimensions = new SizeF(13F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Purple;
             ClientSize = new Size(950, 500);
@@ -212,5 +240,7 @@
         private Button button2;
         private Button button1;
         private CheckBox checkpassword;
+        private LinkLabel linkLabel1;
+        private Label label1;
     }
 }
