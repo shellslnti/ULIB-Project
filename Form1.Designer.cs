@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             loginform = new Panel();
+            label1 = new Label();
             checkpassword = new CheckBox();
             button2 = new Button();
             button1 = new Button();
@@ -40,7 +41,6 @@
             emailtxt = new Label();
             pictureBox1 = new PictureBox();
             welcometxt = new Label();
-            label1 = new Label();
             loginform.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -64,6 +64,19 @@
             loginform.Size = new Size(446, 401);
             loginform.TabIndex = 0;
             loginform.Paint += loginform_Paint;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Yellow;
+            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(165, 53);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(113, 14);
+            label1.TabIndex = 3;
+            label1.Text = "Login as Student";
             // 
             // checkpassword
             // 
@@ -105,6 +118,7 @@
             passwordbox.Name = "passwordbox";
             passwordbox.Size = new Size(242, 24);
             passwordbox.TabIndex = 4;
+            passwordbox.TextChanged += passwordbox_TextChanged;
             // 
             // passwordtxt
             // 
@@ -123,7 +137,7 @@
             logintxt.BackColor = Color.Yellow;
             logintxt.Font = new Font("Tahoma", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             logintxt.ForeColor = Color.Purple;
-            logintxt.Location = new Point(-2, 0);
+            logintxt.Location = new Point(-2, -2);
             logintxt.Name = "logintxt";
             logintxt.Size = new Size(453, 76);
             logintxt.TabIndex = 2;
@@ -176,25 +190,12 @@
             welcometxt.TabIndex = 2;
             welcometxt.Text = "WELCOME TO U-LIB";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Yellow;
-            label1.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(165, 53);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(113, 14);
-            label1.TabIndex = 3;
-            label1.Text = "Login as Student";
-            // 
             // login
             // 
             AutoScaleDimensions = new SizeF(9F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Purple;
-            ClientSize = new Size(950, 500);
+            ClientSize = new Size(1105, 590);
             Controls.Add(pictureBox1);
             Controls.Add(welcometxt);
             Controls.Add(loginform);

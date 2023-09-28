@@ -31,5 +31,10 @@ namespace U_LIB_LOGIN
         {
 
         }
+
+        private void passwordbox_TextChanged(object sender, EventArgs e)
+        {
+            passwordbox.PasswordChar = '*';
+        }
     }
 }

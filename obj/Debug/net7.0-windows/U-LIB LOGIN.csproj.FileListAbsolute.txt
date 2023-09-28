@@ -15,3 +15,20 @@ C:\Users\LENOVO\Documents\UNKLAB\2023\VISPRO\U-LIB LOGIN\obj\Debug\net7.0-window
 C:\Users\LENOVO\Documents\UNKLAB\2023\VISPRO\U-LIB LOGIN\obj\Debug\net7.0-windows\ref\U-LIB LOGIN.dll
 C:\Users\LENOVO\Documents\UNKLAB\2023\VISPRO\U-LIB LOGIN\obj\Debug\net7.0-windows\U_LIB_LOGIN.login.resources
 C:\Users\LENOVO\Documents\UNKLAB\2023\VISPRO\U-LIB LOGIN\obj\Debug\net7.0-windows\U_LIB_LOGIN.Properties.Resources.resources
+C:\Users\Jacky K\source\repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.exe
+C:\Users\Jacky K\source\repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.deps.json
+C:\Users\Jacky K\source\repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.runtimeconfig.json
+C:\Users\Jacky K\source\repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.dll
+C:\Users\Jacky K\source\repos\ULIB-Project\bin\Debug\net7.0-windows\U-LIB LOGIN.pdb
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.login.resources
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U_LIB_LOGIN.Properties.Resources.resources
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.csproj.GenerateResource.cache
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.AssemblyInfoInputs.cache
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.AssemblyInfo.cs
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.csproj.CoreCompileInputs.cache
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.dll
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\refint\U-LIB LOGIN.dll
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.pdb
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\U-LIB LOGIN.genruntimeconfig.cache
+C:\Users\Jacky K\source\repos\ULIB-Project\obj\Debug\net7.0-windows\ref\U-LIB LOGIN.dll

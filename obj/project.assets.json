@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\Jacky K\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\UNKLAB\\2023\\VISPRO\\U-LIB LOGIN\\U-LIB LOGIN.csproj",
+      "projectUniqueName": "C:\\Users\\Jacky K\\Source\\Repos\\ULIB-Project\\U-LIB LOGIN.csproj",
       "projectName": "U-LIB LOGIN",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\UNKLAB\\2023\\VISPRO\\U-LIB LOGIN\\U-LIB LOGIN.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\UNKLAB\\2023\\VISPRO\\U-LIB LOGIN\\obj\\",
+      "projectPath": "C:\\Users\\Jacky K\\Source\\Repos\\ULIB-Project\\U-LIB LOGIN.csproj",
+      "packagesPath": "C:\\Users\\Jacky K\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jacky K\\Source\\Repos\\ULIB-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jacky K\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
